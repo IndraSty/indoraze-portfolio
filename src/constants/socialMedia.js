@@ -3,17 +3,12 @@ import {
     FaDiscord,
     FaGithub,
     FaLinkedin,
-    FaTwitter,
   } from "react-icons/fa";
 
 export const socialMediaList = [
     {
         SocialMediaIcon: () => <FaInstagram />,
         link : "https://www.instagram.com/_indraa02_"
-    },
-    {
-        SocialMediaIcon: () => <FaTwitter />,
-        link : "#"
     },
     {
         SocialMediaIcon: () => <FaLinkedin />,

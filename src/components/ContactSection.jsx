@@ -108,14 +108,14 @@ const ContactSection = () => {
                   <Field name="first_name">
                     {({ field, form }) => (
                       <div className="flex flex-col space-y-2 gap-2">
-                        <label htmlFor="first_name" className="text-white">
+                        <label htmlFor="first_name" className="dark:text-white ">
                           Your Last Name <span className="text-red-500">*</span>
                         </label>
                         <input
                           type="text"
                           id="first_name"
                           placeholder="Your First Name. Example: John"
-                          className={`w-full px-8 py-4 bg-white dark:bg-gray-900 border-2 rounded ${
+                          className={`w-full px-8 py-4 bg-white dark:bg-gray-900 border-2 rounded dark:text-white ${
                             form.errors.first_name && form.touched.first_name
                               ? "border-red-300"
                               : "border-primary"
@@ -133,14 +133,14 @@ const ContactSection = () => {
                   <Field name="last_name">
                     {({ field, form }) => (
                       <div className="flex flex-col space-y-2 gap-2">
-                        <label htmlFor="last_name" className="text-white">
+                        <label htmlFor="last_name" className="dark:text-white">
                           Your Last Name <span className="text-red-500">*</span>
                         </label>
                         <input
                           type="text"
                           id="last_name"
                           placeholder="Your Last Name. Example: Doe"
-                          className={`w-full px-8 py-4 bg-white dark:bg-gray-900 border-2 rounded ${
+                          className={`w-full px-8 py-4 bg-white dark:bg-gray-900 border-2 rounded dark:text-white ${
                             form.errors.last_name && form.touched.last_name
                               ? "border-red-300"
                               : "border-primary"
@@ -166,7 +166,7 @@ const ContactSection = () => {
                           type="email"
                           id="email"
                           placeholder="Your Email. Example: johndoe@gmail.com"
-                          className={`flex-1 px-8 w-full py-4 bg-white dark:bg-gray-900 border-2 border-primary rounded ${
+                          className={`flex-1 px-8 w-full py-4 bg-white dark:bg-gray-900 border-2 border-primary rounded dark:text-white ${
                             form.errors.email && form.touched.email
                               ? "border-red-300"
                               : "border-primary"
@@ -185,14 +185,14 @@ const ContactSection = () => {
                   <Field name="subject">
                     {({ field, form }) => (
                       <div className="flex flex-col space-y-2 mt-3 lg:mt-0">
-                        <label htmlFor="subject" className="text-white">
+                        <label htmlFor="subject" className="dark:text-white">
                           Your Subject <span className="text-red-500">*</span>
                         </label>
                         <input
                           type="text"
                           id="subject"
                           placeholder="Your Subject. Example: Hey, I Wanna Collaborate"
-                          className={`w-full px-8 py-4 bg-white dark:bg-gray-900 border-2 rounded ${
+                          className={`w-full px-8 py-4 bg-white dark:bg-gray-900 border-2 rounded dark:text-white ${
                             form.errors.subject && form.touched.subject
                               ? "border-red-300"
                               : "border-primary"
@@ -211,7 +211,7 @@ const ContactSection = () => {
                 <Field name="message">
                   {({ field, form }) => (
                     <div className="flex flex-col space-y-2 py-3">
-                      <label htmlFor="message" className="text-white">
+                      <label htmlFor="message" className="dark:text-white">
                         Your Message <span className="text-red-500">*</span>
                       </label>
                       <textarea
@@ -235,7 +235,7 @@ const ContactSection = () => {
 
                 <button
                   type="submit"
-                  className={`flex items-center gap-3 py-3 px-8 bg-primary text-white font-semibold text-lg rounded-md ${
+                  className={`flex items-center w-full md:w-auto justify-center gap-3 py-3 px-8 bg-primary text-white font-semibold text-lg rounded-md ${
                     isSubmitting || !isValid
                       ? "opacity-50 cursor-not-allowed"
                       : "hover:bg-primary-hover"

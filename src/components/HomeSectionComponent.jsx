@@ -23,7 +23,7 @@ const HomeSectionComponent = () => {
               }}
             />
           </span>
-          <p className="text-base text-secondary text-center mb-8 md:text-left">{descriptions[0]}</p>
+          <p className="text-sm text-secondary text-center mb-8 md:text-left">{descriptions[0]}</p>
           <button className="flex gap-4 items-center justify-center p-4 mt-4 font-medium w-52 bg-primary rounded-lg 
           text-white hover:bg-primary-hover">
               Download CV <FaDownload />

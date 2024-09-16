@@ -5,8 +5,8 @@ export const profileData = {
     divisions: ["Software Engineer", "Software Engineer", "Software Engineer"],
     pictures: ["/assets/images/ava2.png", "/assets/images/aboutimg.jpg"],
     descriptions: [
-      "I design and develop innovative and efficient software solutions for your business. With the abilities that I have, I am confident and I am ready to help you achieve your business goals.",
-      "Hello everyone! I am Muhammad Sufyan, a frontend mobile and website developer. I am a intermediate experienced and I hope with this I can always learning something new to be able to invent digital applications that can help many people in the future. Could work independently or in a team.",
+      "I build comprehensive and dynamic software applications, handling both front-end and back-end development. My expertise spans across user interface design, server-side logic, database management, and API integration, ensuring seamless and efficient systems.",
+      "Hello everyone! I’m Indra Styawan, a passionate Software Engineer Enthusiast with experience in developing both mobile and web applications. Driven by a keen interest in exploring new technologies and solving complex problems, I’m dedicated to creating impactful digital solutions. Eager to continuously learn and grow, I excel in both independent and team environments, striving to push the boundaries of innovation and deliver outstanding results.",
     ],
     experiences: [
       {

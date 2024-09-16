@@ -33,7 +33,7 @@ const AboutSectionComponent = () => {
 
   return (
     <section id="about">
-      <div className="min-h-screen w-full py-10 px-10 flex-col md:py-20 md:px-20 md:flex-row md:justify-between dark:bg-gray-900">
+      <div className="min-h-screen w-full py-10 px-5 flex-col md:py-20 md:px-20 md:flex-row md:justify-between dark:bg-gray-900">
         <div className="flex text-center justify-center w-full">
           <div className="relative text-center">
             <h1 className="text-gray-300 dark:text-gray-700 text-5xl text-center font-extrabold z-10 opacity-30">
@@ -62,7 +62,7 @@ const AboutSectionComponent = () => {
                 <span className="text-primary">{region}</span>{" "}
               </h5>
 
-              <p className="text-base md:text-lg mb-8 dark:text-white">
+              <p className="text-sm md:text-lg mb-8 dark:text-white">
                 {descriptions[1]}
               </p>
 

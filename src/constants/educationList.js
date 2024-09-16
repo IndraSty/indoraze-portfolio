@@ -1,30 +1,21 @@
 export const educationList = [
     {
-      school: "Institute of Technology and Business STIKOM Bali",
+      school: "University of Amikom Yogyakarta",
       competence: "Information Systems",
-      years: "2023 - Present",
+      years: "2020 - 2024",
     },
     {
-      school: "TI Bali Global Vocational High School",
-      competence: "Software Engineer",
-      years: "2020 - 2023",
+      school: "Bangkit Academy 2023 Batch 2",
+      competence: "Cloud Computing",
+      years: "August 2023 - January 2024",
     },
   ];
 
   export const awardList = [
     {
-      award: "5 Th Winner Web Design Competition",
-      place: "UNBI University",
-      years: "September - 2023",
+      award: "1st Winner Gemasi AR/VR Learning Media Category",
+      place: "University of Amikom Yogyakarta",
+      years: "March - 2023",
     },
-    {
-      award: "Completed ZettaCamp Frontend Bootcamp",
-      place: "Zettabyte Pte Ltd",
-      years: "April - 2022",
-    },
-    {
-      award: "Completed ZettaCamp Angular Bootcamp",
-      place: "Zettabyte Pte Ltd",
-      years: "January - 2022",
-    },
+    
   ];
