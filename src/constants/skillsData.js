@@ -12,7 +12,7 @@ export const skillList = [
     {
       skillIcon: "/assets/svg/javascript.svg",
       title: "JavaScript",
-      level: "Advanced",
+      level: "Intermediate",
     },
     {
       skillIcon: "/assets/svg/react.svg",
