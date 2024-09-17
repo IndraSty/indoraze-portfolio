@@ -1,7 +1,7 @@
 export const profileData = {
     name: "Indra Budi Styawan",
     region: "Indonesia",
-    CV: "/assets/pdf/Muhammad Sufyan CV.pdf",
+    CV: "/assets/pdf/Indra Budi Styawan-resume.pdf",
     divisions: ["Software Engineer", "Software Engineer", "Software Engineer"],
     pictures: ["/assets/images/ava2.png", "/assets/images/aboutimg.jpg"],
     descriptions: [
@@ -10,7 +10,7 @@ export const profileData = {
     ],
     experiences: [
       {
-        number: 3,
+        number: 2,
         title: "Years Of Experience",
       },
       {
@@ -18,7 +18,7 @@ export const profileData = {
         title: "Framework & Tech Stack Used",
       },
       {
-        number: 8,
+        number: 4,
         title: "Successed Projects",
       },
     ],

@@ -4,7 +4,8 @@ import { BsFillChatFill } from "react-icons/bs";
 import Link from "next/link";
 
 const AboutSectionComponent = () => {
-  const { pictures, region, divisions, name, descriptions } = profileData;
+  const { pictures, region, divisions, name, descriptions, experiences } =
+    profileData;
 
   const ImageRotate = ({ src }) => {
     return (
@@ -24,8 +25,8 @@ const AboutSectionComponent = () => {
     return (
       <div className="dark:bg-gray-800 h-48 w-full md:w-52 lg:w-64 overflow-hidden border-b-2 border-primary shadow-md flex items-center rounded-xl transition-all ease-in-out duration-100 hover:shadow-outline-primary">
         <div className="md:px-4 py-7 dark:text-white text-center flex flex-col w-full h-full justify-between">
-          <h2 className="font-bold text-4xl mt-6 font-Heading">{title}</h2>
-          <p className="text-xl">{text}</p>
+          <h2 className="font-semibold text-4xl mt-6 font-Heading text-primary">{title}+</h2>
+          <p className="text-xl font-light">{text}</p>
         </div>
       </div>
     );
@@ -68,9 +69,9 @@ const AboutSectionComponent = () => {
 
               <hr className="border-t-2 border-primary mb-8" />
               <div className="flex flex-col gap-5 md:flex-row w-full justify-between mb-8 md:gap-0 md:space-x-8">
-                <AboutExperienceCard title="8+" text="Years Of Experience" />
-                <AboutExperienceCard title="8+" text="Years Of Experience" />
-                <AboutExperienceCard title="8+" text="Years Of Experience" />
+                {experiences.map((v, index) => (
+                  <AboutExperienceCard key={index} title={v.number} text={v.title} />
+                ))}
               </div>
 
               <Link
