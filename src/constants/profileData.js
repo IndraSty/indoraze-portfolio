@@ -18,7 +18,7 @@ export const profileData = {
         title: "Framework & Tech Stack Used",
       },
       {
-        number: 8,
+        number: 4,
         title: "Successed Projects",
       },
     ],
