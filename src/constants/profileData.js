@@ -2,7 +2,7 @@ export const profileData = {
     name: "Indra Budi Styawan",
     region: "Indonesia",
     CV: "/assets/pdf/Indra Budi Styawan-resume.pdf",
-    divisions: ["Software Engineer", "Software Engineer", "Software Engineer"],
+    divisions: ["Software Engineer", "Fullstack Developer", "Backend Developer"],
     pictures: ["/assets/images/ava2.png", "/assets/images/aboutimg.jpg"],
     descriptions: [
       "I build comprehensive and dynamic software applications, handling both front-end and back-end development. My expertise spans across user interface design, server-side logic, database management, and API integration, ensuring seamless and efficient systems.",
