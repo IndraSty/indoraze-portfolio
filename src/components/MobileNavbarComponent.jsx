@@ -53,7 +53,7 @@ const MobileNavbarComponent = ({ isOpen, onClose, activeHref }) => {
                   {navigationLinkList.map(({ title, href }, index) => (
                     <Link
                       key={`#${title} - ${index}`}
-                      href={`/#${href}`}
+                      href={`#${href}`}
                       className={`p-3 rounded-lg transition-all ease-in-out duration-200 
           hover:text-primary dark:hover:text-primary underline-offset-8 
           ${
